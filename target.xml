@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Common -->
+  <include name="common.xml"/>
+
+  <!-- CodeLinaro -->
+  <include name="clo/audio.xml"/>
+  <include name="clo/camera.xml"/>
+  <include name="clo/cv.xml"/>
+  <include name="clo/display.xml"/>
+  <include name="clo/graphics.xml"/>
+  <include name="clo/kernelplatform.xml"/>
+  <include name="clo/system.xml"/>
+  <include name="clo/vendor.xml"/>
+  <include name="clo/video.xml"/>
+
+</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Common -->
+  <include name="common.xml"/>
+
+  <!-- CodeLinaro -->
+  <include name="clo/le.xml"/>
+
+</manifest>
