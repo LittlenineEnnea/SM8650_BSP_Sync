@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project remote="clo-la" name="platform/vendor/qcom/opensource/graphics-kernel" path="vendor/qcom/opensource/graphics-kernel" revision="cfe7735d45e9894646d94435abea07a731805b74" upstream="refs/heads/gfx-kernel.lnx.1.0.r15-rel"/>
+</manifest>
