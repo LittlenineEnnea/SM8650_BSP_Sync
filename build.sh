@@ -9,8 +9,8 @@ KERNEL_PLATFORM="${VENDOR_DIR}/kernel_platform"
 function build_target {
     cd "$VENDOR_DIR"
     source build/envsetup.sh
-    lunch lanai-userdebug
-    RECOMPILE_KERNEL=1 kernel_platform/build/android/prepare_vendor.sh lanai gki
+    lunch pineapple-userdebug
+    RECOMPILE_KERNEL=1 kernel_platform/build/android/prepare_vendor.sh pineapple gki
     ./build.sh dist --target_only -j "$(nproc --all)"
 }
 
@@ -29,7 +29,7 @@ function build_super {
         --qssi_build_path "$QSSI_DIR" \
         --target_build_path "$VENDOR_DIR" \
         --merged_build_path "$VENDOR_DIR" \
-        --target_lunch lanai \
+        --target_lunch pineapple \
         --no_tmp \
         --output_ota \
         --skip_qiifa
