@@ -6,7 +6,7 @@ QSSI_DIR="${BUILD_ROOT}/qssi"
 VENDOR_DIR="${BUILD_ROOT}/vendor"
 KERNEL_PLATFORM="${VENDOR_DIR}/kernel_platform"
 
-function build_target {
+function build_target {   #2
     cd "$VENDOR_DIR"
     source build/envsetup.sh
     lunch pineapple-userdebug
@@ -14,14 +14,14 @@ function build_target {
     ./build.sh dist --target_only -j "$(nproc --all)"
 }
 
-function build_qssi {
+function build_qssi {  #1
     cd "$QSSI_DIR"
     source build/envsetup.sh
     lunch qssi-userdebug
     ./build.sh dist --qssi_only -j "$(nproc --all)"
 }
 
-function build_super {
+function build_super {  #3
     cd "$VENDOR_DIR"
 
     python vendor/qcom/opensource/core-utils/build/build_image_standalone.py \
