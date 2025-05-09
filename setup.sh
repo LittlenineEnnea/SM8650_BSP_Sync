@@ -27,7 +27,7 @@ declare -A versions=(
     [kernelplatform]="AU_LINUX_KERNEL.PLATFORM.3.0.R1.00.00.00.017.100" #
     [system]="AU_LINUX_ANDROID_LA.QSSI.14.0.R1.14.00.00.1001.162.00"  #
     [vendor]="AU_LINUX_ANDROID_LA.VENDOR.14.3.0.R1.00.00.00.000.160"  #
-    [le]="AU_LINUX_EMBEDDED_LE.UM.6.3.3.R1_TARGET_ALL.01.427.202"
+    [le]="LE.UM.7.3.1.r1-16900-genericarmv8-64.0"
     [video]="AU_TECHPACK_VIDEO.LA.4.0.R2.00.00.00.000.059"  #
     [def_system]="default_LA.QSSI.14.0.r1-16200-qssi.0" #
 )
