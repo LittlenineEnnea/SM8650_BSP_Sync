@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 BUILD_ROOT="$PWD"
-QSSI_ROOT="${BUILD_ROOT}/qssi"
-VENDOR_ROOT="${BUILD_ROOT}/vendor"
+QSSI_ROOT="${BUILD_ROOT}/LA.QSSI.14.0/LINUX/android"
+VENDOR_ROOT="${BUILD_ROOT}/LA.VENDOR.14.3.0/LINUX/android"
 LE_ROOT="${BUILD_ROOT}/le"
 
 function sync_repo {

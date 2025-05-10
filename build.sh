@@ -2,8 +2,8 @@
 
 BUILD_ROOT="$PWD"
 
-QSSI_DIR="${BUILD_ROOT}/qssi"
-VENDOR_DIR="${BUILD_ROOT}/vendor"
+QSSI_DIR="${BUILD_ROOT}/LA.QSSI.14.0/LINUX/android"
+VENDOR_DIR="${BUILD_ROOT}/LA.VENDOR.14.3.0/LINUX/android"
 KERNEL_PLATFORM="${VENDOR_DIR}/kernel_platform"
 
 function build_target {   #2
