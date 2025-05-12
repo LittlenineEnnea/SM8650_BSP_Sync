@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 BUILD_ROOT="$PWD"
-QSSI_ROOT="${BUILD_ROOT}/LA.QSSI.14.0/LINUX/android"
-VENDOR_ROOT="${BUILD_ROOT}/LA.VENDOR.14.3.0/LINUX/android"
 LE_ROOT="${BUILD_ROOT}/LE"
 
 function sync_repo {
@@ -25,8 +23,6 @@ function sync_repo {
     fi
 }
 
-sync_repo "$QSSI_ROOT" "qssi.xml"
-sync_repo "$VENDOR_ROOT" "target.xml"
 sync_repo "$LE_ROOT" "le.xml"
 
 cd "$BUILD_ROOT"
